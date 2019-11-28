@@ -34,6 +34,6 @@ int main() {
   delete[] wczytane;
   
   // ^^ to wszystko mozna zrobic poprzez while(!odczyt.eof())
-  
+ 
   return 0;
 }
