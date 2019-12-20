@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int n = 0; // number of digits to print
+    int n = 0;  //number of digits to print
     cout << "Type how many digits of the Fibonacci sequence you'd like to get: " << endl;
     cin >> n;
 
