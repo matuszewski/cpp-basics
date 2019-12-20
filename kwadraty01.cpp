@@ -30,7 +30,7 @@ int main() {
 
     cout<<"\n x = "<<x<<"\n"<<" y = "<<y<<"\n\n";
 
-    for(int i = 0; i <= y; i++) {                   //kwadrat pe³ny
+    for(int i = 0; i <= y; i++) {                   //kwadrat pelny
         for(int j = 0; j<= x; j++) {
             cout<<"X ";
         }
