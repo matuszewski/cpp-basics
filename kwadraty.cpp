@@ -6,7 +6,7 @@ int main() {
     /*
 
 
-    for(int i = 0; i < 10; i++) {       // z uzyciem petli for od 0
+    for(int i = 0; i < 10; i++) {       // with for loop, starts with 0
         for(int j = 0; j<10; j++) {
             cout<<(i+1)*(j+1)<<"\t";
         }
@@ -15,7 +15,7 @@ int main() {
 
     cout<<"\n";
 
-    for(int i = 1; i <= 10; i++) {      // z uzyciem petli for od 1
+    for(int i = 1; i <= 10; i++) {      // with for loop, starts with 1
         for(int j = 1; j <=10; j++) {
             cout<<i*j<<"\t";
         }
@@ -30,7 +30,7 @@ int main() {
 
     cout<<"\n x = "<<x<<"\n"<<" y = "<<y<<"\n\n";
 
-    for(int i = 0; i <= y; i++) {                   //kwadrat pelny
+    for(int i = 0; i <= y; i++) {                   // filled suqare
         for(int j = 0; j<= x; j++) {
             cout<<"X ";
         }
@@ -39,7 +39,7 @@ int main() {
 
     cout<<"\n x = "<<x<<"\n"<<" y = "<<y<<"\n\n";
 
-    for(int i = 0; i <= y; i++) {                   //tylko wierzcholki
+    for(int i = 0; i <= y; i++) {                   // only apexes
         if(i == 0 || i == y) {
 
             for(int j = 0; j<= x; j++) {
@@ -57,7 +57,7 @@ int main() {
     cout<<"\n x = "<<x<<"\n"<<" y = "<<y<<"\n\n";
 
 
-    for(int i = 0; i <= y; i++) {                   //tylko wierzcholki
+    for(int i = 0; i <= y; i++) {                   // only edges
         for(int j = 0; j<= x; j++) {
 
 
